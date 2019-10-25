@@ -6,5 +6,8 @@
   "scripts": {
     "start": "babel-node index.js"
   },
-  "author": "Philip Ramkeerat"
+  "author": "Philip Ramkeerat",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
