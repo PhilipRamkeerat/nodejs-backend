@@ -8,6 +8,12 @@ const app = express();
 
 app.set("json spaces", 4);
 
-consign().include("models").then("routes").into(app);
+consign()
+    .include("db.js")
+    .then("models")
+    .then("libs/middlewares.js")
+    .then("routes")
+    .then("libs/boot.js")
+    .into(app);
 
 app.listen(PORT, () => console.log(`Task Manager Port = ${PORT}`));
