@@ -1,2 +1,8 @@
 # compiled output
-/node_modules
+node_modules
+npm-debug.log
+taskmanager.sqlite
+taskmanager.sqlite
+.DS_Store
+public/apidoc
+logs/*.log
