@@ -1,7 +1,6 @@
 const express = require('express');
 const consign = require('consign');
 
-
 const PORT = 3000;
 
 const app = express();
@@ -15,5 +14,3 @@ consign()
     .then("routes")
     .then("libs/boot.js")
     .into(app);
-
-app.listen(PORT, () => console.log(`Task Manager Port = ${PORT}`));

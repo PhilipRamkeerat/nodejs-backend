@@ -1,5 +1,5 @@
 module.exports = {
-    database: "task-manager",
+    database: "taskmanager",
     username: "",
     password: "",
     params: {
